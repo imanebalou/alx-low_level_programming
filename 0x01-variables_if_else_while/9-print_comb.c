@@ -21,4 +21,5 @@ else
 putchar('$');
 }
 }
+return (0);
 }
