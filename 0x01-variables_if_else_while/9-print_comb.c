@@ -16,10 +16,6 @@ if (i != 57)
 putchar(',');
 putchar(' ');
 }
-else
-{
-putchar('$');
-}
 }
 return (0);
 }
