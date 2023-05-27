@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Program that prints all possible different combinations 
+ * main - Program that prints all possible different combinations
  * of three digits
  * numbers must be separated by ,
  * followed by a space
