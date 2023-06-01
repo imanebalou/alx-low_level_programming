@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 /**
  * print_alphabet_x10 - Function that prints 10 times the alphabet
  * in lowercase
