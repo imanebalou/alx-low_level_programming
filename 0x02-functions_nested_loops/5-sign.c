@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_sign - Funcion that prints the sign of a number
  * @n: is the char to be checked
@@ -8,17 +7,17 @@ int print_sign(int n)
 {
 if (n > 0)
 {
+_putchar('+');
 return (1);
-printf ("+");
 }
 if (n < 0)
 {
+_putchar('-');
 return (-1);
-printf ("-");
 }
 else
 {
+_putchar('0');
 return (0);
-printf ("0");
 }
 }
