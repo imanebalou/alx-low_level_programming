@@ -12,5 +12,9 @@ if (num < 0)
 num = -num;
 }
 last = num % 10;
+if (last < 0)
+{
+last = -last;
+}
 return (last);
 }
