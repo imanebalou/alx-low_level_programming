@@ -3,7 +3,7 @@
  * jack_bauer - Function thatprint every minute of thedayof jackbauer
  * Return: 0 Success
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 int i,j;
 for (i = 0; i < 24; i++)
