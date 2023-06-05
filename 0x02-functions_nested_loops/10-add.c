@@ -2,7 +2,7 @@
 /**
  * add - Function that adds two integers and returns the result
  */
-int add(int, int);
+int add(int, int)
 {
 int a, b, c;
 c = a + b;
