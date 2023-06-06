@@ -20,8 +20,7 @@ printf(" ");
 }
 else if (i == 98)
 {
-printf(",");
-printf(" ");
+printf("%d\n",i);
 }
 }
 }
@@ -37,8 +36,7 @@ printf(" ");
 }
 else if (j == 98)
 {
-printf(",");
-printf(" ");
+printf("%d\n", i);
 }
 }
 }
