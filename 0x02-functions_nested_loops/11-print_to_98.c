@@ -12,20 +12,30 @@ if (n < 99)
 {
 for (i = n; i < 99; i++)
 {
-printf("%d", i);
 if (i != 98)
+{
+printf("%d",i);
+_putchar(',');
+_putchar(' ');
+}
+else if (i == 98)
 {
 _putchar(',');
 _putchar(' ');
 }
 }
 }
-else
+else if (n >=98)
 {
 for (j = n; j > 97; j--)
 {
-printf("%d",j);
 if (j != 98)
+{
+printf("%d", j);
+_putchar(',');
+_putchar(' ');
+}
+else if (j == 98)
 {
 _putchar(',');
 _putchar(' ');
